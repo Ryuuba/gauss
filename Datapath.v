@@ -2,7 +2,7 @@
 `define DATAPATH_V
 
 //Author: Adán G. Medrano-Chávez
-//This datapath computes n(n+1)/2 through sums. Silly, isn't it?
+//This datapath computes n(n+1)/2 through sums. It's silly, isn't it?
 
 module Datapath(
   ctrlword,     //Manages register i, n, and acum as well as the output
@@ -48,7 +48,7 @@ module Datapath(
     end
   endgenerate
 
-  //Here the combinational blocks of the datapath is described. The actual
+  //Here the combinational blocks of the datapath are described. The actual
   //inputs modifying the output of this block are only registers i and n as well
   //as the most significant bit of the control word
   always @(i or n or ctrlword[3]) begin

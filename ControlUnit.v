@@ -2,7 +2,7 @@
 `define CONTROL_UNIT_V
 
 //Author: Adán G. Medrano-Chávez
-//This is a FSM controlling a datapath implementing the sum of n
+//This FSM manages a datapath implementing the sum of n
 
 module ControlUnit(
   status,     //This signal indicates if the datapath is computing the sum of n
